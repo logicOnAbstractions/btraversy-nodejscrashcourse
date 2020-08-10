@@ -1,4 +1,5 @@
 import os from 'os'
+/* various information about the environement in which we run */
 
 // platform
 console.log(os.platform())

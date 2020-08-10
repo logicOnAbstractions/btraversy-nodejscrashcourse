@@ -6,6 +6,5 @@ class Person {
     greetings(){
         return "hello I'm " + this.name + " and i am " + this.age
     }
-
 }
 export {Person}

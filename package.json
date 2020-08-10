@@ -5,7 +5,9 @@
   "main": "fs_demo.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "_comment": "following are 2 runtime calls. therefore `npm run dev` will run nodemon which allows live reload of any server-side changes. but we obv don't want that in prod",
+    "start": "node index",
+    "dev": "nodemon index"
   },
   "keywords": [],
   "author": "",
